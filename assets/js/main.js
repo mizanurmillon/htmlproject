@@ -1,0 +1,14 @@
+$(document).ready(function(){
+  $(".active-slider").owlCarousel({
+    items:1,
+    loop:true,
+    autoplay:true,
+    dots:true,
+  });
+  $(".brand-slider").owlCarousel({
+    items:5,
+    loop:true,
+    autoplay:true,
+    margin:100,
+  });
+});
